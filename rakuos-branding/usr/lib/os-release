@@ -1,0 +1,8 @@
+PRETTY_NAME="RakuOS GNU/Linux (Rolling)"
+NAME="RakuOS GNU/Linux"
+VERSION_CODENAME=jerky
+ID=rakuos
+ID_LIKE=debian
+HOME_URL="https://rakuos.tohur.xyz"
+SUPPORT_URL="https://rakuos.tohur.xyz/support"
+BUG_REPORT_URL="https://rakuos.tohur.xyz/"
