@@ -1,3 +1,9 @@
+rakuos-settings (1.0.2-1-1rakuos2) UNRELEASED; urgency=medium
+
+  * Adding default grub
+
+ -- Tohur <tohur@Josh-PC>  Sun, 09 Nov 2025 03:38:47 -0700
+
 rakuos-settings (1.0.1-2-1rakuos1) unstable; urgency=medium
 
   * Initial release of RakuOS settings package.
