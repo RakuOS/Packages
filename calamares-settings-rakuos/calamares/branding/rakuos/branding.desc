@@ -1,0 +1,39 @@
+---
+componentName:   rakuos
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,580px
+windowPlacement: center
+
+strings:
+    productName:         RakuOS GNU/Linux
+    shortProductName:    RakuOS
+    version:             rolling
+    shortVersion:        rolling
+    versionedName:       RakuOS rolling
+    shortVersionedName:  RakuOS rolling
+    bootloaderEntryName: RakuOS
+    productUrl:          https://rakuos.tohur.xyz
+    supportUrl:          https://rakuos.tohur.xyz/support
+    knownIssuesUrl:      https://bugs.rakuos.tohur.xyz
+    releaseNotesUrl:     https://rakuos.tohur.xyz/latest/releasenotes
+    donateUrl:           https://rakuos.tohur.xyz
+
+sidebar: widget
+navigation: widget
+
+images:
+    productLogo:         "rakuos-logo.png"
+    productIcon:         "rakuos-logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   SidebarBackground:    "#26475b"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#265370"
+
+slideshowAPI: 2
