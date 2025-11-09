@@ -1,5 +1,5 @@
-rakuos-branding (1.0-1-1rakuos2) unstable; urgency=medium
+rakuos-branding-plasma (1.0.1-1-1rakuos2) unstable; urgency=medium
 
-  * Initial release of RakuOS branding package.
+  * Initial release of RakuOS Plasma branding package.
 
  -- Joshua Webb <tohur@tohur.xyz>  Thu, 06 Nov 2025 22:40:00 -0700
