@@ -1,0 +1,5 @@
+rakuos-settings (1.0.1-2-1rakuos1) unstable; urgency=medium
+
+  * Initial release of RakuOS settings package.
+
+ -- Joshua Webb <tohur@tohur.xyz>  Thu, 06 Nov 2025 22:40:00 -0700

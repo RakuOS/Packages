@@ -1,0 +1,10 @@
+Source: rakuos-settings
+Section: metapackages
+Priority: optional
+Maintainer: RakuOS Team <tohur@tohur.xyz>
+Standards-Version: 4.6.2
+
+Package: rakuos-settings
+Architecture: all
+Depends: ${misc:Depends}, systemd-zram-generator
+Description: Core OS config for RakuOS
