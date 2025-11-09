@@ -1,0 +1,15 @@
+Source: rakuos-branding
+Section: metapackages
+Priority: optional
+Maintainer: RakuOS Team <tohur@tohur.xyz>
+Standards-Version: 4.6.2
+
+Package: rakuos-branding
+Architecture: all
+Replaces: base-files
+Depends: ${misc:Depends}, plymouth, sddm, plasma-desktop, grub2-common
+Description: Branding assets and themes for RakuOS
+ This package contains the official artwork, themes, and
+ configuration defaults used in the RakuOS distribution.
+ Includes SDDM theme, Plymouth splash, wallpaper, Calamares
+ branding, and other system visuals.
