@@ -1,0 +1,92 @@
+xone (0.4.10-10-1rakuos2) unstable; urgency=medium
+
+  * Package for RakuOS 
+
+ -- Tohur <tohur@Josh-PC>  Mon, 10 Nov 2025 13:24:15 -0700
+
+xone (0.4.10-101pika1) pika; urgency=medium
+
+  * New upstream version 0.4.10.
+
+ -- Raven Bot <raven@pika-os.com> Sun, 09 Nov 2025 13:50:15 GMT
+
+xone (0.4.9-101pika1) pika; urgency=medium
+
+  * New upstream version 0.4.9.
+
+ -- Raven Bot <raven@pika-os.com>  Fri, 07 Nov 2025 23:45:55 GMT
+
+xone (1:0.4.8-101pika1) pika; urgency=medium
+
+  * Bump version to 0.4.8.
+
+ -- Raven Bot <raven@pika-os.com>  Tue, 07 Oct 2025 19:58:49 GMT
+
+xone (1:0.4.1git-101pika1) pika; urgency=medium
+
+  * Upstream fixes
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xone (1:0.3.4git-101pika1) pika; urgency=medium
+
+  * Upstream fixes
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xone (1:0.3.1-101pika2) pika; urgency=medium
+
+  * Upstream fixes
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xone (0.3.git1-101pika2) pika; urgency=medium
+
+  * Upstream fixes
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xone (0.3.git-101pika2) pika; urgency=medium
+
+  * Update to PikaOS 4
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xone (0.3.git-101pika1) pikauwu; urgency=medium
+
+  * Update to latest (why are u 101????)
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xone (0.3.git-100pika1) pikauwu; urgency=medium
+
+  * Update to pikauwu.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+
+xone (0.3.git-99pika1.lunar) lunar; urgency=medium
+
+  * Update to lunar.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+
+xone (0.3-6) kinetic; urgency=medium
+
+  * Fix bad deps.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xone (0.3-4) kinetic; urgency=medium
+
+  * Revert Stupid Patch and use firmware install properly, and fix section.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+
+xone  (0.3) kinetic; urgency=medium
+
+  * Initial release.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
