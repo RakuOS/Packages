@@ -1,3 +1,10 @@
+rakuos-settings-plasma (1.0.1-1-1rakuos4) UNRELEASED; urgency=medium
+
+  * Fix 
+  * Add sddm settings
+
+ -- Tohur <tohur@Josh-PC>  Sun, 09 Nov 2025 23:09:52 -0700
+
 rakuos-settings-plasma (1.0.1-1-1rakuos1) unstable; urgency=medium
 
   * Initial release of RakuOS Settings package.
