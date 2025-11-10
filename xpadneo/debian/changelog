@@ -1,0 +1,49 @@
+xpadneo (0.9.7.git-10-1rakuos1) UNRELEASED; urgency=medium
+
+  * Port to RakuOS
+
+ -- Tohur <tohur@Josh-PC>  Mon, 10 Nov 2025 13:04:35 -0700
+
+xpadneo (0.9.7.git-101pika2) pika; urgency=medium
+
+  * Upstream update
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xpadneo (0.9.6.git-101pika1) pika; urgency=medium
+
+  * Update to PikaOS 4.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xpadneo (0.9.6-100pika1) pikauwu; urgency=medium
+
+  * pikauwu.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+
+xpadneo (0.9.5-99pika5.lunar) lunar; urgency=medium
+
+  * Update to lunar.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+
+xpadneo (0.9.5-5) kinetic; urgency=medium
+
+  * Change Section.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+
+xpadneo (0.9.5-1) kinetic; urgency=medium
+
+  * A few fixes.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
+ 
+xpadneo (0.9.5-1) kinetic; urgency=medium
+
+  * Initial release.
+ 
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 04 Oct 2022 17:50:00 +0300
