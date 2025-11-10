@@ -1,0 +1,17 @@
+pcsx2-patches (0.1-0~git202510240639~2fdc835-1rakuos1) unstable; urgency=medium
+
+  * port to RakuOS
+
+ -- Tohur <tohur@Josh-PC>  Mon, 10 Nov 2025 03:44:15 -0700
+
+pcsx2-patches (0.1-0~git202510240639~2fdc835~ubuntu24.04.1) noble; urgency=low
+
+  * Auto build.
+
+ -- Launchpad Package Builder <noreply@launchpad.net>  Fri, 24 Oct 2025 07:47:37 +0000
+
+pcsx2-patches (0.1-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Jonathan Yip <helkaluin@gmail.com>  Tue, 10 Jan 2023 10:03:59 +0800

@@ -1,0 +1,7 @@
+add-3rdparty-plutosvg.diff
+add-3rdparty-sdl2.diff
+add-3rdparty-shaderc.diff
+adjust-required-versions.diff
+warn-unofficial-build.diff
+install-docs.diff
+allow-version-override.diff

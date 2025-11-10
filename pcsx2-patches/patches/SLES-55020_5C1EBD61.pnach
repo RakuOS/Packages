@@ -1,0 +1,6 @@
+gametitle=Simpsons Game, The (PAL-G) SLES-55020 5C1EBD61
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+patch=1,EE,0021591C,word,14800011

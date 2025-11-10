@@ -1,0 +1,6 @@
+gametitle=Tom Clancy's Splinter Cell 3: Chaos Theory * NTSC-U * SLUS-21137 * CFE85175
+//This is the main CRC. This game has two other CRC shifts depending on gamemode selected.
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=nemesis2000

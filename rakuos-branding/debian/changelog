@@ -1,8 +1,9 @@
-rakuos-branding (1.0.2-1-1rakuos4) UNRELEASED; urgency=medium
+rakuos-branding (1.0.2-1-1rakuos6) unstable; urgency=medium
 
   * os-release fix 
+  * 
 
- -- Tohur <tohur@Josh-PC>  Sat, 08 Nov 2025 23:28:51 -0700
+ -- Tohur <tohur@Josh-PC>  Mon, 10 Nov 2025 04:05:29 -0700
 
 rakuos-branding (1.0-1-1rakuos2) unstable; urgency=medium
 

@@ -1,0 +1,5 @@
+comment=Digital Devil Saga-NTSC-U-Widescreen Hack (16:9)
+gametitle=Digital Devil Saga
+[Widescreen 16:9]
+gsaspectratio=16:9
+patch=1,EE,203245E4,word,3FD3A06D

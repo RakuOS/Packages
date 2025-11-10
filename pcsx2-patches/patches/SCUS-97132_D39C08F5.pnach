@@ -1,0 +1,16 @@
+gametitle=Kinetica (NTSC-U)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+description=Widescreen hack
+
+patch=1,EE,00172190,word,3c013f40 //3c013f80
+
+
+[No-Interlacing]
+gsinterlacemode=1
+description=No Interlacing
+
+patch=1,EE,201ABB34,word,00000000
+
+

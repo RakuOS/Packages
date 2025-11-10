@@ -1,0 +1,3 @@
+# git-build-recipe format 0.4 deb-version {debupstream}-0~git202510240639~2fdc835
+lp:~pcsx2-team/pcsx2-github-mirror/+git/pcsx2_patches git-commit:2fdc835f0725b318efcdaae84db1c73a9139b6f6
+merge master lp:~tellowkrinkle/+git/pcsx2_patches git-commit:320783a1aee0667c0f4ece823fcff895979182c1

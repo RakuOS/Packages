@@ -1,0 +1,17 @@
+gametitle=Tom Clancy's Splinter Cell * NTSC-U * SLUS-20652 * A1B095EC
+//This game's CRC changes when actually starting the game from the main menu
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=nemesis2000
+
+[Widescreen 16:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+description=Combine with 'Widescreen 16:9'
+
+[Widescreen 15:10]
+gsaspectratio=Stretch
+author=nemesis2000, converted by pgert
+description=Combine with 'Widescreen 16:9'
+

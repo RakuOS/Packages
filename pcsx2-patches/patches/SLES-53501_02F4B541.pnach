@@ -1,0 +1,15 @@
+gametitle=Star Wars - Battlefront 2 (PAL-M) SLES-53501 02F4B541
+//Corresponds to the main crc to activate the secondary crc B68D35CA called SWBFRNT2.ELF
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=nemesis2000 and Arapapa
+description=Renders the game in 16:9 aspect ratio
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock (130%).
+
+[Disable Blur/Bloom]
+author=Gabominated
+description=Disable the post-processing blur/bloom effect.

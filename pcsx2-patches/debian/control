@@ -1,0 +1,16 @@
+Source: pcsx2-patches
+Section: games
+Priority: optional
+Maintainer: Jonathan Yip <helkaluin@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+	zip
+Standards-Version: 4.6.0
+Homepage: https://github.com/PCSX2/pcsx2_patches
+Rules-Requires-Root: no
+
+Package: pcsx2-patches
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Widescreen and no interlace patches for PCSX2
+ These are the patches used by the PCSX2 emulator to add widescreen support
+ or disable interlace as needed.

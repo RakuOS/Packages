@@ -1,0 +1,12 @@
+gametitle=Silent Hill 2 (PAL-M6) (SLES-50382) 6B149273
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=ElHecht
+description=Renders the game in 16:9 aspect ratio
+patch=1,EE,001773C8,word,3C0243C0 // 3C024400 - X-FoV
+
+[50 FPS]
+author=PeterDelta
+description=Might need EE Overclock at 130%.
+patch=1,EE,001A3860,word,10400009 //14400009

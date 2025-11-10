@@ -1,0 +1,9 @@
+gametitle=Mega Man X7 (SLES-51885)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=nemesis2000
+
+patch=1,EE,0014e524,word,3c0244a8
+
+

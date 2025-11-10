@@ -1,0 +1,75 @@
+Source: pcsx2-stable
+Section: games
+Priority: optional
+Maintainer: Gregory Hainaut <gregory.hainaut@gmail.com>
+Build-Depends: cmake (>= 3.11) | cmake-mozilla (>= 3.11),
+    debhelper (>= 13),
+    extra-cmake-modules,
+    clang,
+    llvm,
+    lld,
+    ninja-build,
+    dpkg-dev (>= 1.15.7),
+    libaio-dev,
+    libavformat-dev,
+    libcurl4-openssl-dev,
+    libglvnd-dev,
+    libjpeg-dev,
+    liblz4-dev,
+    liblzma-dev,
+    libpcap0.8-dev,
+    libpng12-dev | libpng-dev,
+    libpulse-dev,
+    libsdl2-dev,
+    libsoundtouch-dev,
+    libswscale-dev,
+    libudev-dev,
+    libwebp-dev,
+    libwayland-dev,
+    libx11-xcb-dev,
+    libxcb-cursor-dev,
+    libzstd-dev,
+    qt6-base-dev,
+    libqt6svg6-dev,
+    qt6-tools-dev,
+    qt6-l10n-tools,
+    qt6-wayland-dev,
+    qt6-base-private-dev,
+    qt6-tools-dev-tools,
+    locales | locales-all,
+    pkg-config,
+    zlib1g-dev
+Standards-Version: 3.9.3
+Homepage: http://pcsx2.net/
+
+Package: pcsx2-stable
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, qt6-qpa-plugins, pcsx2-patches
+# libasound => alsa plugin for pulseaudio
+# libusb    => ps3 controller (and probably others)
+Recommends: libasound2-plugins,
+    libusb-0.1-4
+Provides: pcsx2
+Conflicts: pcsx2
+Description: Playstation 2 emulator
+ PCSX2 is a PlayStation 2 emulator for Windows and Linux.
+ .
+ WARNING: It requires a CPU with SSE2 instructions. If your CPU does not support
+ this instruction set, it does not have enough horse power to run this emulator
+ anyway.
+
+Package: pcsx2-stable-dbg
+Section: debug
+Priority: extra
+Architecture: amd64
+Depends: ${misc:Depends}, pcsx2-stable (= ${binary:Version})
+Conflicts: pcsx2-dbg
+Description: Debug symbols for PCSX2
+ PCSX2 is a PlayStation 2 emulator for Windows and Linux.
+ .
+ WARNING: It requires a CPU with SSE2 instructions. If your CPU does not support
+ this instruction set, it does not have enough horse power to run this emulator
+ anyway.
+ .
+ This package contains the debug symbols for PCSX2.
+

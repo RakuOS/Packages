@@ -1,0 +1,18 @@
+pcsx2-stable (2.4.0~rakuos1) unstable; urgency=medium
+
+  * port to RakuOS 
+
+ -- Tohur <tohur@tohur.xyz>  Mon, 10 Nov 2025 03:32:49 -0700
+
+pcsx2-stable (2.4.0~ubuntu24.04.1) noble; urgency=low
+
+  * Auto build.
+
+ -- Tellow Krinkle <tellowkrinkle@gmail.com>  Tue, 01 Jul 2025 05:49:52 +0000
+
+pcsx2 (3351-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Gregory Hainaut <gregory.hainaut@gmail.com>  Thu, 13 May 2010 14:27:56 +0200
+

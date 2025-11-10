@@ -1,0 +1,9 @@
+gametitle=RockMan X7 [NTSC-J] (SLPM-65331)
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=nemesis2000
+
+patch=1,EE,0014cbc4,word,3c0244a8
+
+

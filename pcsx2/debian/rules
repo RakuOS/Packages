@@ -1,0 +1,46 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+export DEB_BUILD_MAINT_OPTIONS=optimize=-lto
+export DEB_CFLAGS_MAINT_APPEND  = -fdebug-default-version=4
+export DEB_CXXFLAGS_MAINT_APPEND  = -fdebug-default-version=4
+
+%:
+	DEB_BUILD_MAINT_OPTIONS=optimize=-lto dh $@ --buildsystem=cmake+ninja --builddirectory=build
+
+override_dh_auto_configure:
+	patch --strip=1 --directory=3rdparty/shaderc --input=$(shell pwd)/.github/workflows/scripts/common/shaderc-changes.patch
+	cmake 3rdparty/kddockwidgets -B build-kddockwidgets -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=deps -DKDDockWidgets_STATIC=true -DKDDockWidgets_QT6=true -DKDDockWidgets_EXAMPLES=false -DKDDockWidgets_FRONTENDS=qtwidgets -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja
+	ninja -C build-kddockwidgets
+	ninja -C build-kddockwidgets install
+	dh_auto_configure  -- \
+		-DPCSX2_GIT_REV_OVERRIDE="$(shell dpkg-parsechangelog --show-field Version | sed "s/^[0-9]://")" \
+		-DCMAKE_PREFIX_PATH=deps \
+		-DPACKAGE_MODE=ON \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_BUILD_STRIP=FALSE \
+		-DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON \
+		-DDISABLE_ADVANCE_SIMD=TRUE \
+		-DWAYLAND_API=ON \
+		-DUSE_BACKTRACE=OFF \
+		-DUSE_LINKED_FFMPEG=ON \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_C_COMPILER=/usr/bin/clang \
+		-DCMAKE_CXX_COMPILER=/usr/bin/clang++ \
+		-DCMAKE_EXE_LINKER_FLAGS_INIT="-fuse-ld=lld -Wl,--build-id=sha1" \
+		-DCMAKE_MODULE_LINKER_FLAGS_INIT="-fuse-ld=lld -Wl,--build-id=sha1" \
+		-DCMAKE_SHARED_LINKER_FLAGS_INIT="-fuse-ld=lld -Wl,--build-id=sha1"
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -r debian/tmp/usr/share/PCSX2/resources/shaders/dx11
+	install -D .github/workflows/scripts/linux/pcsx2-qt.desktop debian/tmp/usr/share/applications/PCSX2.desktop
+	install -D bin/resources/icons/AppIconLarge.png debian/tmp/usr/share/icons/hicolor/256x256/apps/PCSX2.png
+
+override_dh_strip:
+	dh_strip --package=pcsx2-stable --dbg-package=pcsx2-stable-dbg
+
+override_dh_auto_test:
+	
+

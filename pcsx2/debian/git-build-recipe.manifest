@@ -1,0 +1,11 @@
+# git-build-recipe format 0.4 deb-version 2.4.0
+lp:pcsx2-github-mirror git-commit:e4af1c424451c6b65c5c387404315cef77e9901b
+nest sdl lp:~pcsx2-team/pcsx2-github-mirror/+git/sdl 3rdparty/sdl/SDL git-commit:8d604353a53853fa56d1bdce0363535605ca868f
+nest shaderc lp:~pcsx2-team/pcsx2-github-mirror/+git/shaderc 3rdparty/shaderc git-commit:5d7736da11e626b49c5463aadb2afb228ad20276
+nest glslang lp:~pcsx2-team/pcsx2-github-mirror/+git/glslang 3rdparty/shaderc/third_party/glslang git-commit:142052fa30f9eca191aa9dcf65359fcaed09eeec
+nest spirv-tools lp:~libretro/libretro/+git/spirv-tools 3rdparty/shaderc/third_party/spirv-tools git-commit:dd4b663e13c07fea4fbb3f70c1c91c86731099f7
+nest spirv-headers lp:~libretro/libretro/+git/spirv-headers 3rdparty/shaderc/third_party/spirv-headers git-commit:5e3ad389ee56fca27c9705d093ae5387ce404df4
+nest kddockwidgets lp:~pcsx2-team/pcsx2-github-mirror/+git/kddockwidgets 3rdparty/kddockwidgets git-commit:aeb3aaeff94b2520924dad46be01b141e5d10834
+nest plutosvg lp:~pcsx2-team/pcsx2-github-mirror/+git/plutosvg 3rdparty/plutosvg git-commit:c5388fa96feca1f1376a3d0485d5e35159452707
+nest plutovg lp:~pcsx2-team/pcsx2-github-mirror/+git/plutovg 3rdparty/plutosvg/plutovg git-commit:5e4712cf873b0c7829a4a6157763e2ad3ac49164
+merge master lp:~tellowkrinkle/pcsx2-github-mirror git-commit:4f73f5dc46bacf73bf51e3045d299b85504817fe

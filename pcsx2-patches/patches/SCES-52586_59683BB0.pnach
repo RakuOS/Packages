@@ -1,0 +1,17 @@
+gametitle=Death by Degrees (PAL-M2) (SCES-52586) 59683BB0
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=ElHecht
+description=Renders the game in 16:9 aspect ratio
+// Gameplay
+patch=1,EE,00188170,word,3C023FE3
+patch=1,EE,00188178,word,34438E38
+// Cut-Scenes
+patch=1,EE,00185f8c,word,3C023FE3
+patch=1,EE,00185f90,word,34438E38
+
+[50 FPS]
+author=felixthecat1970
+description=Might need EE Overclock at 130%.
+patch=0,EE,003BFE5C,extended,24040001

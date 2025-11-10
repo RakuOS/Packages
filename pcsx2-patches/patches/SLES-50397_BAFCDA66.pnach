@@ -1,0 +1,16 @@
+gametitle=Prisoner of War (PAL-M5) (SLES-50397) BAFCDA66
+//Corresponds to the main crc to activate the crc 61F79C5A called COLDITZ.ELF
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=ElHecht
+description=Renders the game in 16:9 aspect ratio
+
+[Widescreen/16:10]
+gsaspectratio=Stretch
+author=ElHecht
+description=Renders the game in 16:10 aspect ratio
+
+[Remove Blackbars]
+author=PeterDelta
+description=Remove black bars from cutscenes

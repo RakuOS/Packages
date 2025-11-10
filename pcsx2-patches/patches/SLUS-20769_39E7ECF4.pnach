@@ -1,0 +1,10 @@
+gametitle=Harry Potter - Quidditch World Cup (NTSC-U) SLUS-20769 39E7ECF4
+
+[Widescreen 16:9]
+gsaspectratio=16:9
+author=PeterDelta
+description=Enable native widescreen
+patch=1,EE,00464C88,word,00000001
+patch=1,EE,004B5D54,word,00464C80
+patch=1,EE,00358BF0,word,24020000
+patch=1,EE,01DF61E0,word,00000001 //menu options
