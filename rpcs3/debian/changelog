@@ -1,0 +1,14 @@
+rpcs3 (0.0.38-1-1rakuos2) UNRELEASED; urgency=medium
+
+  * First build for RakuOS
+
+ -- Tohur <tohur@tohur.xyz>  Sun, 09 Nov 2025 05:59:58 -0700
+
+rpcs3 (0.0.38+git20251106.3df0c8c-1~3rdp4r7yr3p0~1) unstable; urgency=medium
+
+  * OBS home:3rdp4r7yr3p0 Rebuild/Re-Packaging.
+  * GIT commit 3df0c8c (https://github.com/RPCS3/rpcs3.git)
+    (Thu Nov 6 20:28:23 2025 +0100)
+
+ -- 3rdp4r7yr3p0 <3rdp4r7yr3p0@gmail.com>  Fri, 07 Nov 2025 14:33:03 +0000
+

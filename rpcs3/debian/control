@@ -1,0 +1,22 @@
+Source: rpcs3
+Section: games
+Priority: optional
+Maintainer: Joshua Webb <tohur@tohur.xyz>
+Build-Depends:
+ debhelper-compat (= 13),
+ build-essential, clang-19, cmake, dh-exec, dpkg-dev, libasound2-dev, libavcodec-dev, libavformat-dev, libavutil-dev, libcurl4-openssl-dev, libedit-dev, libevdev-dev, libglew-dev, libglu1-mesa-dev, libjack-jackd2-dev, libopenal-dev, libpng-dev, libpulse-dev, libsdl3-dev, libswscale-dev, libudev-dev, libusb-1.0-0-dev, libvulkan-dev (>= 1.3.268), libx11-dev, libyaml-cpp-dev, lld-19, llvm-19-dev, lsb-release, pkgconf, qt6-base-dev (>= 6.8~), qt6-base-private-dev (>= 6.8~), qt6-multimedia-dev (>= 6.8~), qt6-svg-dev (>= 6.8~), zlib1g-dev,
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+Homepage: https://rpcs3.net
+Vcs-Git: https://github.com/RPCS3/rpcs3.git
+Vcs-Browser: https://github.com/RPCS3/rpcs3
+
+Package: rpcs3
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator.
+ RPCS3 is a multi-platform open-source Sony PlayStation 3 emulator and
+ debugger written in C++ for Windows, Linux, macOS and FreeBSD. The
+ purpose of the project is to completely and accurately emulate the Sony
+ PlayStation 3 Computer Entertainment System in its entirety with the power
+ of open-source community and reverse engineering.

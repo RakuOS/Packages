@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+echo "🎮 RankuOS Gaming Environment installed!"
+systemctl --user enable --now gamemoded.service || true

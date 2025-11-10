@@ -1,0 +1,13 @@
+Source: steam
+Section: metapackages
+Priority: optional
+Maintainer: RakuOS Team <tohur@tohur.xyz>
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.6.2
+
+Package: steam
+Architecture: all
+Depends: ${misc:Depends}, steam-installer
+Description: Steam Meta Package
+ A transitional meta-package that installs the Debian steam-installer
+ package, providing the traditional 'steam' package name for RankuOS users.

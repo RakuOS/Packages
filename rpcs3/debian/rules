@@ -1,0 +1,42 @@
+#!/usr/bin/make -f
+export DH_VERBOSE=1
+export DEB_BUILD_OPTIONS += noautodbgsym
+
+include /usr/share/dpkg/architecture.mk
+
+export CC=clang-19
+export CXX=clang++-19
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	rm -Rf intel-ittapi
+	rm -f rpcs3/git-version.h
+	dh_auto_clean
+
+override_dh_auto_configure:
+	tar xfJ debian/intel-ittapi.tar.xz
+	mv intel-ittapi ittapi && mkdir intel-ittapi && mv ittapi intel-ittapi/
+	cp -f debian/git-version.h rpcs3/
+	dh_auto_configure -- \
+		-DCMAKE_BUILD_TYPE=Release \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_LINKER=lld-19 \
+		-DCMAKE_SHARED_LINKER_FLAGS="-fuse-ld=lld-19" \
+		-DCMAKE_EXE_LINKER_FLAGS="-fuse-ld=lld-19" \
+		-DITTAPI_SOURCE_DIR=$(CURDIR)/intel-ittapi \
+		-DUSE_SYSTEM_CURL=ON \
+		-DUSE_SYSTEM_FFMPEG=ON \
+		-DUSE_SYSTEM_LIBPNG=ON \
+		-DUSE_SYSTEM_LIBUSB=ON \
+		-DUSE_SDL=ON -DUSE_SYSTEM_SDL=ON \
+		-DUSE_SYSTEM_ZLIB=ON \
+		-DDISABLE_LTO=TRUE \
+		-DUSE_NATIVE_INSTRUCTIONS=OFF \
+		-DCMAKE_MESSAGE_LOG_LEVEL=STATUS
+
+override_dh_dwz:
+
+override_dh_strip:
+	dh_strip -Xdebian/rpcs3/usr/share/rpcs3/test/

@@ -1,0 +1,15 @@
+Source: rankuos-gaming-meta
+Section: metapackages
+Priority: optional
+Maintainer: RakuOS Team <tohur@tohur.xyz>
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.6.2
+
+Package: rankuos-gaming-meta
+Architecture: all
+Depends: ${misc:Depends}, steam, lutris, heroic, wine, protontricks, gamemode, goverlay, mangohud, vkBasalt
+Description: RankuOS Gaming Meta Package
+ A meta-package that installs the essential gaming tools, and optimizations for RankuOS.
+ Includes:
+  - Steam, Lutris, Heroic Launcher
+  - Utilities like GameMode, MangoHud, vkBasalt.

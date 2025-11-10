@@ -1,0 +1,10 @@
+Source: rakuos-settings-plasma
+Section: metapackages
+Priority: optional
+Maintainer: RakuOS Team <tohur@tohur.xyz>
+Standards-Version: 4.6.2
+
+Package: rakuos-settings-plasma
+Architecture: all
+Depends: ${misc:Depends}, plymouth, sddm, plasma-desktop, grub2-common
+Description: Plasma Settings for RakuOS
