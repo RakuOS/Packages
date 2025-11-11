@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Ryujinx
+Comment=Switch emulator
+Exec=/usr/games/ryujinx
+Icon=ryujinx
+Terminal=false
+Type=Application
+Categories=Game;Emulator;

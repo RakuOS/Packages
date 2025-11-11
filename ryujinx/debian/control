@@ -1,0 +1,11 @@
+Source: ryujinx
+Section: metapackages
+Priority: optional
+Maintainer: RakuOS Team <tohur@tohur.xyz>
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.6.2
+
+Package: ryujinx
+Architecture: amd64
+Depends: ${misc:Depends},
+Description: Ryujinx is an open-source Nintendo Switch emulator written in C#. This is a fork of the original project created by gdkchan. This emulator aims at providing excellent accuracy and performance, a user-friendly interface, and consistent builds.

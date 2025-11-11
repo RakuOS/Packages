@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+# Simple dh (debhelper) build rules file
+%:
+	dh $@ --without=shlibdeps,strip
+
+# Prevent dh_strip from running on this package
+override_dh_strip:
+	@echo "Skipping dh_strip for Ryujinx (bundled libs)"
+
+override_dh_shlibdeps:
+	@echo "Skipping dh_shlibdeps for Ryujinx (bundled libs)"
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 755 debian/ryujinx/opt/ryujinx/Ryujinx
+	chmod u+x debian/ryujinx/opt/ryujinx/Ryujinx
+	chmod 755 debian/ryujinx/opt/ryujinx/Ryujinx.sh
+	chmod u+x debian/ryujinx/opt/ryujinx/Ryujinx.sh
+	chmod 755 debian/ryujinx/usr/games/ryujinx
+	chmod u+x debian/ryujinx/usr/games/ryujinx
+	chmod 755 debian/ryujinx/usr/share/applications/Ryujinx.desktop
+	chmod u+x debian/ryujinx/usr/share/applications/Ryujinx.desktop
