@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+# Simple dh (debhelper) build rules file
+%:
+	dh $@
+
+# # Prevent dh_strip from running on this package
+# override_dh_strip:
+# 	@echo "Skipping dh_strip for Ryujinx (bundled libs)"
+#
+# override_dh_shlibdeps:
+# 	@echo "Skipping dh_shlibdeps for Ryujinx (bundled libs)"
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 755 debian/xemu/usr/games/xemu
+	chmod u+x debian/xemu/usr/games/xemu
+	chmod 755 debian/xemu/usr/share/applications/xemu.desktop
+	chmod u+x debian/xemu/usr/share/applications/xemu.desktop
