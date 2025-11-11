@@ -1,0 +1,11 @@
+Source: cemu
+Section: metapackages
+Priority: optional
+Maintainer: RakuOS Team <tohur@tohur.xyz>
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.6.2
+
+Package: cemu
+Architecture: amd64
+Depends: ${misc:Depends},
+Description: Cemu is a Nintendo Wii U emulator that is able to run most Wii U games and homebrew in a playable state. Created by Exzap, and written in C/C++. This emulator aims at providing both high-accuracy and performance, and is actively being developed with new features and fixes to increase compatibility, convenience and usability. It was written from scratch and development on the project began roughly early 2015.

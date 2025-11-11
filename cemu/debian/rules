@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+# Simple dh (debhelper) build rules file
+%:
+	dh $@
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 755 debian/cemu/opt/cemu/Cemu
+	chmod u+x debian/cemu/opt/cemu/Cemu
+	chmod 755 debian/cemu/usr/games/cemu
+	chmod u+x debian/cemu/usr/games/cemu
+	chmod 755 debian/cemu/usr/share/applications/Cemu.desktop
+	chmod u+x debian/cemu/usr/share/applications/Cemu.desktop
