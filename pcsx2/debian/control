@@ -1,7 +1,7 @@
 Source: pcsx2-stable
 Section: games
 Priority: optional
-Maintainer: Gregory Hainaut <gregory.hainaut@gmail.com>
+Maintainer: Joshua Webb <tohur@tohur.xyz>
 Build-Depends: cmake (>= 3.11) | cmake-mozilla (>= 3.11),
     debhelper (>= 13),
     extra-cmake-modules,

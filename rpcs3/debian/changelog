@@ -1,8 +1,9 @@
-rpcs3 (0.0.38-1-1rakuos2) UNRELEASED; urgency=medium
+rpcs3 (0.0.38-1-1rakuos4) unstable; urgency=medium
 
   * First build for RakuOS
+  * compile to use /usr/games for bin path
 
- -- Tohur <tohur@tohur.xyz>  Sun, 09 Nov 2025 05:59:58 -0700
+ -- Tohur <tohur@Josh-PC>  Mon, 10 Nov 2025 21:19:11 -0700
 
 rpcs3 (0.0.38+git20251106.3df0c8c-1~3rdp4r7yr3p0~1) unstable; urgency=medium
 

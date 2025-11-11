@@ -2,5 +2,5 @@
 set -e
 echo 'Enabling networking capability on Linux...'
 set -x
-setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/bin/pcsx2-qt
+setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' /usr/games/pcsx2-qt
 set +x

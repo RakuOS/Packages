@@ -1,3 +1,9 @@
+pcsx2-stable (2.4.0~rakuos2) unstable; urgency=medium
+
+  * Fix the package to use the Debian way to install game binaries to /usr/games 
+
+ -- Tohur <tohur@tohur.xyz>  Mon, 10 Nov 2025 20:43:09 -0700
+
 pcsx2-stable (2.4.0~rakuos1) unstable; urgency=medium
 
   * port to RakuOS 
