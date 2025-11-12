@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+# Simple dh (debhelper) build rules file
+%:
+	dh $@
+
+# Prevent dh_strip from running on this package
+override_dh_strip:
+	@echo "Skipping dh_strip for Duckstation (bundled libs)"
+
+override_dh_shlibdeps:
+	@echo "Skipping dh_shlibdeps for Duckstation (bundled libs)"
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 755 debian/duckstation/opt/duckstation/duckstation-qt
+	chmod u+x debian/duckstation/opt/duckstation/duckstation-qt
+	chmod 755 debian/duckstation/usr/games/duckstation-qt
+	chmod u+x debian/duckstation/usr/games/duckstation-qt
+	chmod 755 debian/duckstation/usr/share/applications/org.duckstation.DuckStation.desktop
+	chmod u+x debian/duckstation/usr/share/applications/org.duckstation.DuckStation.desktop

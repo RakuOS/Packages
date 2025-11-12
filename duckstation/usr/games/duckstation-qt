@@ -1,0 +1,9 @@
+#!/bin/bash
+# Add DuckStation's lib path before system libs
+export LD_LIBRARY_PATH="/opt/duckstation/lib:${LD_LIBRARY_PATH}"
+# Point Qt to its plugins directory (usually inside lib/qt or lib/plugins)
+export QT_PLUGIN_PATH="/opt/duckstation/lib/plugins:${QT_PLUGIN_PATH}"
+# Optionally ensure correct platform plugin search
+export QT_QPA_PLATFORM_PLUGIN_PATH="/opt/duckstation/lib/plugins/platforms"
+
+exec /opt/duckstation/duckstation-qt "$@"

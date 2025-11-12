@@ -1,0 +1,19 @@
+Source: duckstation
+Section: games
+Priority: optional
+Maintainer: Joshua Webb <tohur@tohur.xyz>
+Build-Depends: debhelper (>= 11),
+ debhelper-compat (= 11),
+Standards-Version: 3.9.8
+Homepage: https://xemu.app
+XS-Debian-Vcs-Browser: https://github.com/mborgerson/xemu
+XS-Debian-Vcs-Git: https://github.com/mborgerson/xemu.git
+Vcs-Browser: https://github.com/mborgerson/xemu
+Vcs-Git: https://github.com/mborgerson/xemu.git
+
+Package: duckstation
+Architecture: amd64
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Provides: duckstation
+Description:DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. Note: DuckStation is provided in the non-free repository due to licensing restrictions set by its developers which prohibit redistribution by Linux distributions. This package contains the unmodified official binary release.

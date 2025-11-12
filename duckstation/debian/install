@@ -1,0 +1,7 @@
+usr/games/* usr/games/
+squashfs-root/usr/bin/* opt/duckstation/
+squashfs-root/usr/lib/* opt/duckstation/lib/
+squashfs-root/usr/plugins/* opt/duckstation/lib/plugins/
+squashfs-root/usr/share/applications/* usr/share/applications/
+squashfs-root/usr/share/icons/hicolor/512x512/* usr/share/icons/hicolor/512x512/
+squashfs-root/usr/share/metainfo/* usr/share/metainfo/

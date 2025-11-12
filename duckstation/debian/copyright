@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: RakuOS Branding
+Upstream-Contact: Joshua Webb <contact@rakuos.org>
+Source: https://rakuos.org/
+
+Files: *
+Copyright: 2025 Joshua Webb
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 or later.
