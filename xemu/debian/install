@@ -1,4 +1,4 @@
 squashfs-root/usr/bin/* usr/games/
 squashfs-root/usr/share/applications/* usr/share/applications/
 squashfs-root/usr/share/icons/* usr/share/icons/
-squashfs-root/usr/share/metainfo/* usr/share/metainfo/
+squashfs-root/usr/share/metainfo/* /usr/share/metainfo/

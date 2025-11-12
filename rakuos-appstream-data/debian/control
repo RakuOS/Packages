@@ -1,0 +1,14 @@
+Source: rakuos-appstream-data
+Section: metainfo
+Priority: optional
+Maintainer: Joshua Webb <tohur@tohur.xyz>
+Standards-Version: 4.7.0
+Build-Depends: debhelper-compat (= 13)
+
+Package: rakuos-appstream-data
+Architecture: all
+Depends: ${misc:Depends}
+Description: AppStream metadata for RakuOS packages
+ This package provides AppStream metadata entries for third-party
+ applications included in the RakuOS repositories, allowing them to
+ appear correctly in software centers such as GNOME Software or KDE Discover.

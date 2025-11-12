@@ -9,5 +9,5 @@ override_dh_fixperms:
 	chmod u+x debian/cemu/opt/cemu/Cemu
 	chmod 755 debian/cemu/usr/games/cemu
 	chmod u+x debian/cemu/usr/games/cemu
-	chmod 755 debian/cemu/usr/share/applications/Cemu.desktop
-	chmod u+x debian/cemu/usr/share/applications/Cemu.desktop
+	chmod 755 debian/cemu/usr/share/applications/info.cemu.Cemu.desktop
+	chmod u+x debian/cemu/usr/share/applications/info.cemu.Cemu.desktop
