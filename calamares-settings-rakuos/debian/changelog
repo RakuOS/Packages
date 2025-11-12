@@ -1,4 +1,4 @@
-calamares-settings-rakuos (1.0.0-1rakuos2) UNRELEASED; urgency=medium
+calamares-settings-rakuos (1.0.0-1rakuos3) UNRELEASED; urgency=medium
 
   * First fork
   * Set btrfs as default filesystem 

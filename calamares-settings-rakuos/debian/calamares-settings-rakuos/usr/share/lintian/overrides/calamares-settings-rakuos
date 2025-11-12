@@ -1,5 +1,0 @@
-# Only meant to be run by calamares, so its scripts wouldn't have manpages
-calamares-settings-rakuos: binary-without-manpage
-
-# We don't provide this file on purpose
-calamares-settings-rakuos: diversion-for-unknown-file

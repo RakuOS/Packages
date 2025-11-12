@@ -1,0 +1,16 @@
+Source: rakuos-keyring
+Section: metapackages
+Priority: optional
+Maintainer: Joshua Webb <tohur@tohur.xyz>
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.6.2
+
+Package: rakuos-keyring
+Version: 1.0
+Section: admin
+Priority: optional
+Architecture: all
+Maintainer: Joshua Webb <tohur@tohur.xyz>
+Description: GnuPG archive keys for RakuOS APT repository
+ This package contains the GPG keys used to sign the RakuOS APT repositories.
+ The key is fetched from https://repo.tohur.xyz/keys/rakuos.asc at build time.

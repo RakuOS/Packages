@@ -6,10 +6,28 @@
 CHROOT=$(mount | grep proc | grep calamares | awk '{print $3}' | sed -e "s#/proc##g")
 RELEASE="sid"
 
-cat << EOF > $CHROOT/etc/apt/sources.list
-# See https://wiki.debian.org/SourcesList for more information.
-deb http://deb.debian.org/debian $RELEASE main contrib non-free non-free-firmware
-deb-src http://deb.debian.org/debian $RELEASE main contrib non-free non-free-firmware
+rm $CHROOT/etc/apt/sources.list.d/rakuos.list
+cat << EOF > $CHROOT/etc/apt/sources.list.d/rakuos.sources
+#RakuOS
+Types: deb
+URIs: https://repo.tohur.xyz/rakuos
+Suites: rakuos
+Components: main contrib non-free
+Signed-By: /usr/share/keyrings/rakuos-archive-keyring.gpg
+
+# Debian upstream
+Types: deb
+URIs: http://repo.tohur.xyz/upstream/
+Suites: sid
+Components: main contrib non-free non-free-firmware
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+#XanMod
+Types: deb
+URIs: http://deb.xanmod.org/
+Suites: sid
+Components: main
+Signed-By: /usr/share/keyrings/xanmod-archive-keyring.gpg
 EOF
 
 exit 0
