@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Wed, 12 Nov 2025 23:22:44 -0700
+Source: rakuos-settings
+Binary: rakuos-settings
+Architecture: all
+Version: 1.0.2-1-1rakuos5
+Distribution: unstable
+Urgency: medium
+Maintainer: RakuOS Team <tohur@tohur.xyz>
+Changed-By: Tohur <tohur@tohur.xyz>
+Description:
+ rakuos-settings - Core OS config for RakuOS
+Changes:
+ rakuos-settings (1.0.2-1-1rakuos5) unstable; urgency=medium
+ .
+   * Adding default grub
+   * Porting things over from cachyos-settings
+Checksums-Sha1:
+ aaa027e831d70837c3c5e2c0d33a91559b5aabc0 10724 rakuos-settings_1.0.2-1-1rakuos5_all.deb
+ ef5ad0a3fa5a9317fdbeb8880c142d7bf42a3ac8 5204 rakuos-settings_1.0.2-1-1rakuos5_amd64.buildinfo
+Checksums-Sha256:
+ f53d3d64dc1231c927de0a48087ba8adca1c3e0377b390a2f6bd71979fe8c4d8 10724 rakuos-settings_1.0.2-1-1rakuos5_all.deb
+ 2ba53bb4ebf0ea4544459f8f4e077c87a3932ff167ef42af291104defca8b97a 5204 rakuos-settings_1.0.2-1-1rakuos5_amd64.buildinfo
+Files:
+ 86effcec6ad5a0bfcbc082a035ea5f0a 10724 metapackages optional rakuos-settings_1.0.2-1-1rakuos5_all.deb
+ 29a1d9b3e5b9e17d71c5b746da07b6bb 5204 metapackages optional rakuos-settings_1.0.2-1-1rakuos5_amd64.buildinfo

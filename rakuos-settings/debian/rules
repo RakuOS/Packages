@@ -2,3 +2,14 @@
 # Simple dh (debhelper) build rules file
 %:
 	dh $@
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 755 debian/rakuos-settings/usr/bin/kerver
+	chmod u+x debian/rakuos-settings/usr/bin/kerver
+	chmod 755 debian/rakuos-settings/usr/bin/pci-latency
+	chmod u+x debian/rakuos-settings/usr/bin/pci-latency
+	chmod 755 debian/rakuos-settings/usr/bin/topmem
+	chmod u+x debian/rakuos-settings/usr/bin/topmem
+	chmod 755 debian/rakuos-settings/usr/bin/zink-run
+	chmod u+x debian/rakuos-settings/usr/bin/zink-run

@@ -2,9 +2,11 @@ Source: rakuos-settings
 Section: metapackages
 Priority: optional
 Maintainer: RakuOS Team <tohur@tohur.xyz>
+Build-Depends: debhelper-compat (= 13),
 Standards-Version: 4.6.2
 
 Package: rakuos-settings
 Architecture: all
-Depends: ${misc:Depends}, systemd-zram-generator
+Replaces: systemd-zram-generator
+Depends: ${misc:Depends}, systemd-zram-generator, libzstd1, rtkit
 Description: Core OS config for RakuOS

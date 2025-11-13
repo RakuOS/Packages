@@ -1,8 +1,9 @@
-rakuos-settings (1.0.2-1-1rakuos2) UNRELEASED; urgency=medium
+rakuos-settings (1.0.2-1-1rakuos5) unstable; urgency=medium
 
   * Adding default grub
+  * Porting things over from cachyos-settings
 
- -- Tohur <tohur@Josh-PC>  Sun, 09 Nov 2025 03:38:47 -0700
+ -- Tohur <tohur@tohur.xyz>  Wed, 12 Nov 2025 23:22:44 -0700
 
 rakuos-settings (1.0.1-2-1rakuos1) unstable; urgency=medium
 
