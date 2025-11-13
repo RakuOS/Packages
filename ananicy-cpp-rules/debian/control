@@ -1,0 +1,14 @@
+Source: ananicy-rules
+Section: admin
+Priority: optional
+Maintainer: Joshua Webb <tohur@tohur.xyz>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: ananicy-rules
+Architecture: all
+Depends: ananicy-cpp (>= 1.1.1)
+Description: Default rule set for ananicy-cpp
+ This package provides the default process priority and scheduling
+ rules for ananicy-cpp to optimize desktop and gaming responsiveness.
+

@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ananicy-cpp
+Source: https://gitlab.com/ananicy-cpp/ananicy-cpp
+License: GPL-3+
+License-Filename: COPYING
+Files: *
+Copyright: 2020-2025 the ananicy-cpp authors
