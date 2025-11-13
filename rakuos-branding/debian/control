@@ -8,7 +8,7 @@ Standards-Version: 4.6.2
 Package: rakuos-branding
 Architecture: all
 Replaces: base-files
-Depends: ${misc:Depends}, plymouth, sddm, plasma-desktop, grub2-common
+Depends: ${misc:Depends}
 Description: Branding assets and themes for RakuOS
  This package contains the official artwork, themes, and
  configuration defaults used in the RakuOS distribution.
