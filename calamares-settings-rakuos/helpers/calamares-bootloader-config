@@ -25,3 +25,11 @@ fi
 # Re-enable os-prober:
 sed -i "s/#GRUB_DISABLE_OS_PROBER=false/# OS_PROBER re-enabled by RakuOS Calamares installation:\nGRUB_DISABLE_OS_PROBER=false/g" $CHROOT/etc/default/grub
 chroot $CHROOT /usr/sbin/update-grub
+# Detect if the installed system is on Btrfs
+FS_TYPE=$(findmnt -n -o FSTYPE "$CHROOT")
+if [ "$FS_TYPE" = "btrfs" ]; then
+    echo " * Btrfs detected, installing grub-btrfs and snapper..."
+    chroot "$CHROOT" apt-get -y install grub-btrfs snapper
+else
+    echo " * Not a Btrfs filesystem, skipping grub-btrfs and snapper installation."
+fi

@@ -1,0 +1,44 @@
+grub-btrfs (4.11-1~1rakuos2) UNRELEASED; urgency=medium
+
+  * Build for RakuOS 
+
+ -- Tohur <tohur@Josh-PC>  Sat, 08 Nov 2025 14:17:54 -0700
+
+grub-btrfs (4.11-1~1siduction1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * rebuild for siduction
+
+ -- Torsten Wohlfarth <towo@siduction.org>  Mon, 06 Jan 2025 16:44:38 +0100
+
+grub-btrfs (4.11-0kali3) kali-dev; urgency=medium
+
+  [ Kali Janitor ]
+  * Set upstream metadata fields: Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+  * Add ITP bugs in 4.11-0kali1.
+  * Set upstream metadata fields: Repository.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Steev Klimaszewski ]
+  * ci: Disable piuparts since the install always fails in a container.
+
+  [ Arnaud Rebillout ]
+  * Drop comments and useless boilerplate in maintscripts
+  * Ensure update-grub is installed before using it (thx ak-li1)
+  * Update control file
+
+ -- Arnaud Rebillout <arnaudr@kali.org>  Mon, 06 Jan 2025 09:45:00 +0700
+
+grub-btrfs (4.11-0kali2) kali-dev; urgency=medium
+
+  * Depend on grub2-common not grub-common
+
+ -- Steev Klimaszewski <steev@kali.org>  Tue, 01 Nov 2022 23:19:46 -0500
+
+grub-btrfs (4.11-0kali1) kali-dev; urgency=medium
+
+  * Initial release. Closes: #941627
+
+ -- Carsten Boeving <re4son@kali.org>  Fri, 04 Feb 2022 17:55:12 +0700

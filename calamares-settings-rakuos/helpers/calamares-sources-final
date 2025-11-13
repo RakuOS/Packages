@@ -6,6 +6,7 @@
 CHROOT=$(mount | grep proc | grep calamares | awk '{print $3}' | sed -e "s#/proc##g")
 RELEASE="sid"
 
+rm $CHROOT/etc/apt/sources.list
 rm $CHROOT/etc/apt/sources.list.d/rakuos.list
 cat << EOF > $CHROOT/etc/apt/sources.list.d/rakuos.sources
 #RakuOS

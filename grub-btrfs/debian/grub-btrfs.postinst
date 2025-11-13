@@ -1,0 +1,16 @@
+#!/bin/sh
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    configure)
+        if command -v update-grub >/dev/null; then
+            update-grub
+        fi
+        ;;
+esac
+
+#DEBHELPER#
+
+# vim:set et ts=4 sw=4:

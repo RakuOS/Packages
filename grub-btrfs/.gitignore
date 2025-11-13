@@ -1,0 +1,6 @@
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/grub-btrfs.postrm.debhelper
+debian/grub-btrfs.substvars
+debian/grub-btrfs/

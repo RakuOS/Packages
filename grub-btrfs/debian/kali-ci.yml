@@ -1,0 +1,7 @@
+include:
+  - https://gitlab.com/kalilinux/tools/kali-ci-pipeline/raw/master/recipes/kali.yml
+
+# The installation attempts to run grub-probe to figure out what device is /
+# which doesn't exist in the CI containers, so just disable it in the CI.
+variables:
+  SALSA_CI_DISABLE_PIUPARTS: 1
