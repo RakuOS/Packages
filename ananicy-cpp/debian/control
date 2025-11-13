@@ -1,0 +1,28 @@
+Source: ananicy-cpp
+Section: admin
+Priority: optional
+Maintainer: Tohur <tohur@tohur.xyz>
+Build-Depends: debhelper-compat (= 13),
+               cmake,
+               ninja-build,
+               g++,
+               pkg-config,
+               clang,
+               libbpf-dev,
+               libelf-dev,
+               libfmt-dev,
+               libspdlog-dev,
+               nlohmann-json3-dev,
+               systemd-dev,
+               zlib1g-dev
+Standards-Version: 4.6.2
+Homepage: https://gitlab.com/ananicy-cpp/ananicy-cpp
+Rules-Requires-Root: no
+
+Package: ananicy-cpp
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Ananicy Cpp - automatic process optimizer rewritten in C++
+ Ananicy Cpp is a full rewrite of Ananicy in C++, featuring lower CPU and RAM usage.
+ It automatically adjusts process priorities, CPU affinities, and I/O classes
+ based on configuration rules to optimize system responsiveness.

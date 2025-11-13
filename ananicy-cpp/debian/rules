@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+# Simple dh (debhelper) build rules file
+%:
+	dh $@
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 755 debian/ananicy-cpp/usr/bin/ananicy-cpp
+	chmod u+x debian/ananicy-cpp/usr/bin/ananicy-cpp
