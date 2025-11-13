@@ -1,0 +1,26 @@
+Format: 1.8
+Date: Sat, 08 Nov 2025 14:22:38 -0700
+Source: calamares-settings-rakuos
+Binary: calamares-settings-rakuos
+Architecture: all
+Version: 1.0.0-1rakuos8
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Jonathan Carter <jcc@debian.org>
+Changed-By: Tohur <tohur@tohur.xyz>
+Description:
+ calamares-settings-rakuos - RakuOS theme and settings for the Calamares Installer
+Changes:
+ calamares-settings-rakuos (1.0.0-1rakuos8) UNRELEASED; urgency=medium
+ .
+   * First fork
+   * Set btrfs as default filesystem
+Checksums-Sha1:
+ cfc7d62d7578fe18a8ea7ae89aceddbf6661cccd 219452 calamares-settings-rakuos_1.0.0-1rakuos8_all.deb
+ cf936fb796225315d834465215f17ca1e1513c52 5341 calamares-settings-rakuos_1.0.0-1rakuos8_amd64.buildinfo
+Checksums-Sha256:
+ b7b877441a3d131eadc50b929ac843091eb3e800570386d3d9530845a48cf25f 219452 calamares-settings-rakuos_1.0.0-1rakuos8_all.deb
+ 9e3356bf784c6401a108b3b6aa8a8af306716f97447a32af552f6612ebaa9e0f 5341 calamares-settings-rakuos_1.0.0-1rakuos8_amd64.buildinfo
+Files:
+ 806edbb52bf2abdbcaeed1982704a469 219452 utils optional calamares-settings-rakuos_1.0.0-1rakuos8_all.deb
+ a5966918fde56cfe557dc9029cc63cb3 5341 utils optional calamares-settings-rakuos_1.0.0-1rakuos8_amd64.buildinfo

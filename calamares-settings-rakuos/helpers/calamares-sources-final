@@ -11,14 +11,14 @@ rm $CHROOT/etc/apt/sources.list.d/rakuos.list
 cat << EOF > $CHROOT/etc/apt/sources.list.d/rakuos.sources
 #RakuOS
 Types: deb
-URIs: https://repo.tohur.xyz/rakuos
+URIs: https://repo.rakuos.org/rakuos
 Suites: rakuos
 Components: main contrib non-free
 Signed-By: /usr/share/keyrings/rakuos-archive-keyring.gpg
 
 # Debian upstream
 Types: deb
-URIs: http://repo.tohur.xyz/upstream/
+URIs: http://repo.rakuos.org/upstream/
 Suites: sid
 Components: main contrib non-free non-free-firmware
 Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg

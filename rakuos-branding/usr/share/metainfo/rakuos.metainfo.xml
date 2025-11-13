@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="os">
-    <id>xyz.tohur.rakuos.rakuos</id>
+    <id>org.rakuos.rakuos</id>
     <name>RakuOS GNU/Linux</name>
     <summary>RakuOS Rolling — a fast and modern Debian-based Linux distribution</summary>
     <developer_name>Tohur Development</developer_name>
     <project_license>GPL-3.0-or-later</project_license>
     <url type="homepage">https://rakuos.org</url>
-    <url type="bugtracker">https://rakuos.org/issues</url>
+    <url type="bugtracker">https://bugs.rakuos.org</url>
     <metadata_license>CC0-1.0</metadata_license>
     <!-- AppStream repo mapping -->
     <provides>

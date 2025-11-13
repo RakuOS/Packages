@@ -14,11 +14,11 @@ strings:
     versionedName:       RakuOS rolling
     shortVersionedName:  RakuOS rolling
     bootloaderEntryName: RakuOS
-    productUrl:          https://rakuos.tohur.xyz
-    supportUrl:          https://rakuos.tohur.xyz/support
-    knownIssuesUrl:      https://bugs.rakuos.tohur.xyz
-    releaseNotesUrl:     https://rakuos.tohur.xyz/latest/releasenotes
-    donateUrl:           https://rakuos.tohur.xyz
+    productUrl:          https://rakuos.org
+    supportUrl:          https://rakuos.org/support
+    knownIssuesUrl:      https://bugs.rakuos.org
+    releaseNotesUrl:     https://rakuos.org/latest/releasenotes
+    donateUrl:           https://rakuos.org
 
 sidebar: widget
 navigation: widget

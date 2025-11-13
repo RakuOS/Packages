@@ -3,7 +3,7 @@ LogoPath=emblem-debian
 Name=RakuOS GNU/Linux
 Version=rolling
 Variant=KDE Plasma
-Website=https://rakuos.tohur.xyz
+Website=https://rakuos.org
 BugReportUrl=https://github.com/RakuOS
-SupportUrl=https://rakuos.tohur.xyz/support
+SupportUrl=https://rakuos.org/support
 
