@@ -2,7 +2,4 @@
 
 set -e
 
-systemctl enable --now pci-latency.service
-systemctl restart rtkit-daemon.service
-
-udevadm control --reload-rules && udevadm trigger
+systemctl enable pci-latency.service
