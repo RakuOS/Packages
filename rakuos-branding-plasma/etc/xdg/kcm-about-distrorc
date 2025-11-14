@@ -1,5 +1,5 @@
 [General]
-LogoPath=emblem-debian
+LogoPath=emblem-rakuos
 Name=RakuOS GNU/Linux
 Version=rolling
 Variant=KDE Plasma

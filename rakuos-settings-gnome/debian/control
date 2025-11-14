@@ -1,12 +1,12 @@
-Source: rakuos-settings-plasma
+Source: rakuos-settings-gnome
 Section: metapackages
 Priority: optional
-Maintainer: RakuOS Team <tohur@tohur.xyz>
+Maintainer: RakuOS Team <tohur@rakuos.org>
 Build-Depends: debhelper-compat (= 13),
 Standards-Version: 4.6.2
 
-Package: rakuos-settings-plasma
+Package: rakuos-settings-gnome
 Architecture: all
 Replaces: desktop-base
-Depends: ${misc:Depends}, plymouth, sddm, plasma-desktop, grub2-common
+Depends: ${misc:Depends}
 Description: Plasma Settings for RakuOS
