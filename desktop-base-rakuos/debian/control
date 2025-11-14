@@ -1,0 +1,16 @@
+Source: desktop-base
+Section: misc
+Priority: optional
+Maintainer: Joshua Webb <tohur@rakuos.org>
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://rakuos.org
+
+Package: desktop-base
+Architecture: all
+Replaces: desktop-base (<< 99)
+Breaks: desktop-base (<< 99)
+Conflicts: desktop-base (<< 99)
+Description: RakuOS desktop branding placeholder
+ A minimal package to override Debian's desktop-base and
+ include custom RakuOS desktop branding, themes, and artwork.
